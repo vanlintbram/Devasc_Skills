@@ -39,4 +39,4 @@ Lenghty problem at 2.C: clear counters. Command worked on the cli but not throug
 !!!!!!!!Verification
 
 
-
+https://tinyimg.io/i/oVT2IY9.PNG

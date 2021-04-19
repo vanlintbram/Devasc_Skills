@@ -1,0 +1,27 @@
+---
+- name: Checking Info of the CSR1000v
+  hosts: CSR1kv
+  gather_facts: false
+  connection: local
+
+  tasks:
+    - name: Show Version 
+      ios_command:
+        commands:
+          - show version
+
+
+    - name: Show interfaces
+      ios_command:
+        commands:
+          - show interfaces
+    
+    - name: run commands that require answering a prompt
+      ios_command:
+        commands:
+        - command: 'clear counters'
+          prompt: '[confirm]'
+          answer: 'y'
+
+
+

@@ -36,6 +36,8 @@ Make the ansible.cfg point to the hosts file. In hosts specify the CSR1000v host
 
 Lenghty problem at 2.C: clear counters. Command worked on the cli but not through Ansible. First tried to put the command and prompt in extra ''. But that did not work. Eventually only using [confirm] from ''Clear "show interface" counters on all interfaces [confirm]'' did the trick.
 
+NETCONF port didnt seem to work?
+
 !!!!!!!!Verification
 
 

@@ -41,4 +41,4 @@ NETCONF port didnt seem to work?
 !!!!!!!!Verification
 
 
-
+https://tinyimg.io/i/oVT2IY9.PNG

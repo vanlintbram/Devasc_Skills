@@ -82,8 +82,7 @@ Except "Segmentation fault (core dumped)" No troubles encountered.
 -----------------Verification
 
 <<<<<<< HEAD
-View verify_showInventory.
-=======
+
 View verify_showInventory and next screenshot.
 
 https://tinyimg.io/i/Kt9512q.png

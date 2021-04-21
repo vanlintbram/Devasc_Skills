@@ -81,9 +81,24 @@ Except "Segmentation fault (core dumped)" No troubles encountered.
 
 -----------------Verification
 
-<<<<<<< HEAD
-
 View verify_showInventory and next screenshot.
 
 https://tinyimg.io/i/Kt9512q.png
->>>>>>> e3398573a191a49d135bbce4fed6590894dedf6e
+
+Task 6 -- Webex Teams API ***
+
+-----------------Preparation
+
+Fetched the API key and tested it with a pull of information about me.
+
+-----------------Implementation
+
+Created a room with my token and saved the room_id. Used the room_id to add a member to it and to send messages.
+
+-----------------Troubleshooting
+
+No troubles encountered.
+
+-----------------Verification
+
+https://tinyimg.io/i/ubVYeub.png

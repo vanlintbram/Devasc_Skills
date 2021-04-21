@@ -81,4 +81,4 @@ Except "Segmentation fault (core dumped)" No troubles encountered.
 
 -----------------Verification
 
-View verify_showInventory and next screenshot.
+View verify_showInventory.

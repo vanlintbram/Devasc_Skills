@@ -65,3 +65,20 @@ Got a variety of errors back in the RESTCONF response, eg; "uri keypath not foun
 -----------------Verification
 
 https://tinyimg.io/i/FtCboYB.png
+
+Task 5 – pyATS ***
+
+-----------------Preparation
+
+Created a venv
+
+-----------------Implementation
+Did a pip install pyats[full]. Created a testbed file for the CSR1kv. And than ran genie parse "show inventory" --testbed-file yaml/testbed.yml --devices CSR1kv
+
+-----------------Troubleshooting
+
+Except "Segmentation fault (core dumped)" No troubles encountered.
+
+-----------------Verification
+
+View verify_showInventory and next screenshot.

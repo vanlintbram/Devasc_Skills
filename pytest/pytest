@@ -1,0 +1,2 @@
+First we would need to install pytest. Then if we could take the output from any get or post request and check the status code for anything else then a 2xx code. Like “assert resp == “<Response [200]>” This we would have to do with a method starting or ending with the word “test”.
+

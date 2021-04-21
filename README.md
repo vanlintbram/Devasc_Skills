@@ -64,3 +64,4 @@ Got a variety of errors back in the RESTCONF response, eg; "uri keypath not foun
 
 -----------------Verification
 
+https://tinyimg.io/i/FtCboYB.png

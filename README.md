@@ -16,12 +16,7 @@ Tried to push the changes without having pointed the remote repository.
 -----------------Verification
 
 View changes on Github.
-/
-/
-/
-/
-/
-/
+
 Task 2 -- Ansible Skills Test ***
 
 -----------------Preparation
@@ -42,12 +37,28 @@ NETCONF port didnt seem to work?
 
 
 https://tinyimg.io/i/oVT2IY9.PNG
-/
-/
-/
-/
-/
-/
+
+Task 3 -- Docker ***
+
+-----------------Preparation
+
+Build a file called Dockerfile
+
+-----------------Implementation
+
+We find that the httpd is the suiting image for our task. We need to differentiate the port to 8081 instead of 8080. Therefore we need to expose it to 8081 and afterwards when deploying using the -p publish 8081 parameter.
+
+-----------------Troubleshooting
+
+When deploying we find that the port on where the httpd package is functioning is still 8080 and not 8081. Even after using the --publish trick.
+
+-----------------Verification
+
+https://tinyimg.io/i/krXWWv4.png
+https://tinyimg.io/i/JTzWxBX.png
+https://tinyimg.io/i/J5xchd2.png
+
+
 Task 4 -- REST API & RESTCONF
 
 -----------------Preparation
